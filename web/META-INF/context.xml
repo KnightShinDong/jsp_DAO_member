@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context>
-
-    <Resource>
-            name="test"
-            auth="Container"
-            driverClassName="org.mariadb.jdbc.Driver"
-            type="javax.sql.DataSource"
-            url = "jdbc:mariadb://localhost:3306/test"
-            username = "root"
-            password = "1234"
-            maxActive="50"
-            maxIdle="10"
-            maxWait="5000"
-    </Resource>
+        <Resource
+                name="test"
+                auth="Container"
+                driverClassName="org.mariadb.jdbc.Driver"
+                type="javax.sql.DataSource"
+                url="jdbc:mariadb://localhost:3306/test"
+                username="root"
+                password="1234"
+                maxActive="50"
+                maxIdle="10"
+                maxWait="5000"
+        />
 </Context>
 
 

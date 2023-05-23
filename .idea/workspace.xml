@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jsp_DAO_Member:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="757f7337-d682-44c4-b24f-ae03e152a266" name="Changes" comment="joinOk.jsp">
+    <list default="true" id="757f7337-d682-44c4-b24f-ae03e152a266" name="Changes" comment="dao 진행중">
+      <change afterPath="$PROJECT_DIR$/web/loginOk.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp_DAO_Member.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jsp_DAO_Member.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sdh/ex/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sdh/ex/MemberDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sdh/ex/MemberDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sdh/ex/MemberDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/JS/members.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/JS/members.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/join.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/joinOk.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/joinOk.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,14 +27,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="2Q9Th88xkOXKfDNUCwsrBoVvK8W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/akdls/Desktop/ShindongWork/jsp_Login2",
+    "last_opened_file_path": "C:/Users/akdls/Desktop/ShindongWork/jsp_DBCP",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,7 +75,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Tomcat 10.1.8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.8" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 10.1.8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.8" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -166,7 +174,8 @@
       <option name="presentableId" value="Default" />
       <updated>1684764922383</updated>
       <workItem from="1684764923406" duration="2780000" />
-      <workItem from="1684798224502" duration="13795000" />
+      <workItem from="1684798224502" duration="13835000" />
+      <workItem from="1684850121971" duration="4528000" />
     </task>
     <task id="LOCAL-00001" summary="joinOk.jsp">
       <created>1684767700526</created>
@@ -175,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684767700526</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dao 진행중">
+      <created>1684830713008</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684830713008</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +199,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="joinOk.jsp" />
-    <option name="LAST_COMMIT_MESSAGE" value="joinOk.jsp" />
+    <MESSAGE value="dao 진행중" />
+    <option name="LAST_COMMIT_MESSAGE" value="dao 진행중" />
   </component>
 </project>

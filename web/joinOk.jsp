@@ -7,8 +7,8 @@
 <jsp:setProperty name="dto" property="*" />          <!--javaBean객체 속성 설정태그-매개변수값을 속성에 자동매핑 -->
 <%
   dto.setrDate(new Timestamp(System.currentTimeMillis()));
-  MemberDao dao = MemberDao.getInmstance();
-  if(dao.confirmId(dto.getId())==MemberDao.MEMBER_EXISENT) {
+  MemberDao dao = MemberDao.getInstance();
+  if(dao.confirmld(dto.getId())==MemberDao.MEMBER_EXISTENT) {
 %>
       <script language="javascript">
         alert("아이디가 이미 존재합니다.");
@@ -17,7 +17,7 @@
 <%
   }else{
     int ri = dao.insertMember(dto);
-    if(ri = MemberDao.MEMBER_JOIN_SUCCESS){
+    if(ri == MemberDao.MEMBER_JOIN_SUCCESS){
       session.setAttribute("id", dto.getId());
 %>
     <script language="javascript">
@@ -32,11 +32,9 @@
         document.location.href="login.jsp";
     </script>
 
+    }
 }
-
-
-
-          <html>
+<html>
 <head>
     <title>joinOk</title>
 </head>
