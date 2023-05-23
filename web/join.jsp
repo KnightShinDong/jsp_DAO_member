@@ -15,7 +15,7 @@
 
   <form action="joinOk.jsp" method="post" name="reg_grm">
     아이디 : <input type="text" name="id" size="20"><br />
-    비밀번호 : <input type="text" name="pw" size="20"><br />
+    비밀번호 : <input type="password" name="pw" size="20"><br />
     비밀번호 확인 : <input type="password" name="pw_check" size="20"><br />
     이름 : <input type="text" name="name" size="20">
     메일 : <input type="text" name="email" size="20"><br />
