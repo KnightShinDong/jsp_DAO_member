@@ -169,7 +169,7 @@ public class MemberDao {
 
         try {
             context = new InitialContext();
-            dataSource = (DataSource)context.lookup("java:comp/env/jdbc/Oracle11g");
+            dataSource = (DataSource)context.lookup("java:comp/env/test");
             connection = dataSource.getConnection();
         }catch (Exception e) {
             e.printStackTrace();

@@ -37,7 +37,7 @@
         session.setAttribute("id",id);
         session.setAttribute("name", name);
         session.setAttribute("ValidMem","yes");
-        response.sendRedirect("main,jsp");
+        response.sendRedirect("main.jsp");
     }
 }
 %>
@@ -47,7 +47,6 @@
     <title>loginOk</title>
 </head>
 <body>
-    ${name} 님 로그인에 성공하셨습니다.
 
 </body>
 </html>

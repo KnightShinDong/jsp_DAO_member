@@ -9,12 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="757f7337-d682-44c4-b24f-ae03e152a266" name="Changes" comment="dao 진행중">
-      <change afterPath="$PROJECT_DIR$/web/loginOk.jsp" afterDir="false" />
+    <list default="true" id="757f7337-d682-44c4-b24f-ae03e152a266" name="Changes" comment="진행중">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sdh/ex/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sdh/ex/MemberDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/META-INF/context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/joinOk.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/joinOk.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/loginOk.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/loginOk.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/akdls/Desktop/ShindongWork/jsp_DBCP",
+    "last_opened_file_path": "C:/Users/akdls/Desktop/ShindongWork/jsp_DAO_Member",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -175,7 +175,8 @@
       <updated>1684764922383</updated>
       <workItem from="1684764923406" duration="2780000" />
       <workItem from="1684798224502" duration="13835000" />
-      <workItem from="1684850121971" duration="4528000" />
+      <workItem from="1684850121971" duration="4641000" />
+      <workItem from="1684854977554" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="joinOk.jsp">
       <created>1684767700526</created>
@@ -191,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684830713008</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="진행중">
+      <created>1684854762496</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684854762496</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="joinOk.jsp" />
     <MESSAGE value="dao 진행중" />
-    <option name="LAST_COMMIT_MESSAGE" value="dao 진행중" />
+    <MESSAGE value="진행중" />
+    <option name="LAST_COMMIT_MESSAGE" value="진행중" />
   </component>
 </project>

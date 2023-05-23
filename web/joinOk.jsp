@@ -1,6 +1,5 @@
 <%@ page import="java.sql.Timestamp" %>
 <%@ page import="com.sdh.ex.*" %>
-<%@ page import="java.lang.reflect.Member" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <% request.setCharacterEncoding("UTF-8");%>
 <jsp:useBean id="dto" class="com.sdh.ex.MemberDto"/> <!--bean(재사용가능한 구성요소 or 객체)을 사용하기 태그 -->
@@ -34,6 +33,7 @@
 
     }
 }
+
 <html>
 <head>
     <title>joinOk</title>
