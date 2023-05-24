@@ -11,15 +11,14 @@
     int checkNum = dao.userCheck(id,pw);
     if ((checkNum == -1)){
 %>
-    <script language="JavaScript">
+    <script type="text/javascript">
         alert("아이디가 존재하지 않습니다.")
         history.go(-1);
     </script>
 <%
     }else if (checkNum == 0){
 %>
-    <script language="JavaScript">
-        alert("비밀번호가 틀립니다.")
+      <script type="text/javascript">        alert("비밀번호가 틀립니다.")
         history.go(-1);
     </script>
 <%
@@ -27,8 +26,7 @@
         MemberDto dto = dao.getMember(id);
         if (dto == null){
 %>
-        <script language="JavaScript">
-            alert("존재하지 않는 회원입니다.")
+          <script type="text/javascript">            alert("존재하지 않는 회원입니다.")
             history.go(-1);
         </script>
 <%

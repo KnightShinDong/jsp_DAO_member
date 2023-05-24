@@ -25,21 +25,29 @@ public class MemberDao {
     }
 
     public int insertMember(MemberDto dto) {
+
         int ri = 0;
         Connection connection = null;
         PreparedStatement pstmt = null;
         String query = "INSERT INTO memberex values(?,?,?,?,?,?)";
+        //System.out.println(dto.getId());
         //커넥션 풀: DB 연결된 커넥션을 미리 만들어 풀에 저장하는 기법
         try {
             connection = getConnection();
+           // System.out.println(connection);
             pstmt = connection.prepareStatement(query);
+            //System.out.println(dto.getId());
             pstmt.setString(1, dto.getId());
             pstmt.setString(2, dto.getPw());
             pstmt.setString(3, dto.getName());
             pstmt.setString(4, dto.getEmail());
             pstmt.setTimestamp(5, dto.getrDate());
             pstmt.setString(6, dto.getAddress());
+
+            pstmt.executeUpdate(); //집어넣어야 널값이 안나오지...ㅠㅠ
+
             ri = MemberDao.MEMBER_JOIN_SUCCESS;
+            System.out.println(ri);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -49,8 +57,9 @@ public class MemberDao {
             } catch (Exception e2) {
                 e2.printStackTrace();
             }
-            return ri;
         }
+        return ri;
+
     }
         public int confirmld (String id) {
             int ri = 0;
@@ -80,8 +89,9 @@ public class MemberDao {
                 } catch (Exception e2) {
                     e2.printStackTrace();
                 }
-                return ri;
             }
+            return ri;
+
         }
             public int userCheck (String id, String pw){
                 int ri = 0;
@@ -155,16 +165,16 @@ public class MemberDao {
                 } catch (Exception e2) {
                     e2.printStackTrace();
                 }
-                return dto;
-            }
 
+            }
+            return dto;
         }
 
 
 
     private Connection getConnection() {
-        Context context =null;
-        DataSource dataSource =null;
+        Context context = null;
+        DataSource dataSource = null;
         Connection connection = null;
 
         try {
@@ -172,7 +182,9 @@ public class MemberDao {
             dataSource = (DataSource)context.lookup("java:comp/env/test");
             connection = dataSource.getConnection();
         }catch (Exception e) {
+            System.out.println("Failed to get connection: " + e.getMessage());
             e.printStackTrace();
+
         }
         return connection;
     }

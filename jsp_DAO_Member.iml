@@ -27,8 +27,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="mariadb-java-client-2.7.3" level="project" />
     <orderEntry type="library" name="jsp-api" level="project" />
     <orderEntry type="library" name="tomcat-dbcp" level="project" />
+    <orderEntry type="library" name="mariadb-java-client-3.0.8" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

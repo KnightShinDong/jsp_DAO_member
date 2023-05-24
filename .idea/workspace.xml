@@ -10,10 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="757f7337-d682-44c4-b24f-ae03e152a266" name="Changes" comment="진행중">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mariadb_java_client_3_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mariadb_java_client_2_7_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp_DAO_Member.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jsp_DAO_Member.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sdh/ex/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sdh/ex/MemberDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/JS/members.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/JS/members.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/join.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/joinOk.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/joinOk.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/loginOk.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/loginOk.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,14 +60,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/akdls/Desktop/ShindongWork/jsp_DAO_Member",
+    "last_opened_file_path": "C:/Program Files/Apache Software Foundation/Tomcat 10.1/lib/servlet-api.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/akdls/Desktop/ShindongWork/jsp_DAO_Member/src/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.19425288",
     "settings.editor.selected.configurable": "File.Encoding",
@@ -176,7 +181,8 @@
       <workItem from="1684764923406" duration="2780000" />
       <workItem from="1684798224502" duration="13835000" />
       <workItem from="1684850121971" duration="4641000" />
-      <workItem from="1684854977554" duration="547000" />
+      <workItem from="1684854977554" duration="799000" />
+      <workItem from="1684887389867" duration="7954000" />
     </task>
     <task id="LOCAL-00001" summary="joinOk.jsp">
       <created>1684767700526</created>
@@ -199,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684854762496</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="진행중">
+      <created>1684855626524</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684855626524</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

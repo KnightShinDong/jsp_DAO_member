@@ -9,7 +9,7 @@
   MemberDao dao = MemberDao.getInstance();
   if(dao.confirmld(dto.getId())==MemberDao.MEMBER_EXISTENT) {
 %>
-      <script language="javascript">
+      <script type="text/javascript">
         alert("아이디가 이미 존재합니다.");
         history.back();
       </script>
@@ -19,21 +19,20 @@
     if(ri == MemberDao.MEMBER_JOIN_SUCCESS){
       session.setAttribute("id", dto.getId());
 %>
-    <script language="javascript">
+    <script type="text/javascript">
         alert("회원가입을 축하합니다.");
         document.location.href="login.jsp";
     </script>
 <%
     }else {
 %>
-    <script language="JavaScript">
-        alert("회원가입에 실패했습니다..");
+      <script type="text/javascript">        alert("회원가입에 실패했습니다..");
         document.location.href="login.jsp";
     </script>
-
+<%
     }
 }
-
+%>
 <html>
 <head>
     <title>joinOk</title>
