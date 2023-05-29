@@ -5,7 +5,6 @@
 <jsp:useBean id="dto" class="com.sdh.ex.MemberDto"/> <!--bean(재사용가능한 구성요소 or 객체)을 사용하기 태그 -->
 <jsp:setProperty name="dto" property="*" />          <!--javaBean객체 속성 설정태그-매개변수값을 속성에 자동매핑 -->
 <%
-  dto.setrDate(new Timestamp(System.currentTimeMillis()));
   MemberDao dao = MemberDao.getInstance();
   if(dao.confirmld(dto.getId())==MemberDao.MEMBER_EXISTENT) {
 %>

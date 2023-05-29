@@ -30,13 +30,13 @@
             history.go(-1);
         </script>
 <%
-    }else {
-        String name = dto.getName();
-        session.setAttribute("id",id);
-        session.setAttribute("name", name);
-        session.setAttribute("ValidMem","yes");
-        response.sendRedirect("main.jsp");
-    }
+        }else {
+            String name = dto.getName();
+            session.setAttribute("id",id);
+            session.setAttribute("name", name);
+            session.setAttribute("ValidMem","yes");
+            response.sendRedirect("main.jsp");
+        }
 }
 %>
 

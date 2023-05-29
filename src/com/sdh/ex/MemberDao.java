@@ -6,6 +6,7 @@ import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.Timestamp;
 
 
 public class MemberDao {
@@ -41,7 +42,7 @@ public class MemberDao {
             pstmt.setString(2, dto.getPw());
             pstmt.setString(3, dto.getName());
             pstmt.setString(4, dto.getEmail());
-            pstmt.setTimestamp(5, dto.getrDate());
+            pstmt.setTimestamp(5, new Timestamp(System.currentTimeMillis()));
             pstmt.setString(6, dto.getAddress());
 
             pstmt.executeUpdate(); //집어넣어야 널값이 안나오지...ㅠㅠ
